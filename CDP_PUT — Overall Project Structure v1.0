@@ -1,0 +1,411 @@
+CDP_PUT
+│
+├── 00 — PROJECT CONTROL
+│   │
+│   ├── Project Charter
+│   │   ├── Gatekeeper: The Composition Group
+│   │   ├── Test Article
+│   │   │   └── Structured geopolitical-to-market prediction method
+│   │   ├── Level: Level 1 — Explore
+│   │   ├── Method: DMADV
+│   │   │   ├── DEFINE   ← Level 1
+│   │   │   ├── MEASURE  ← Level 1
+│   │   │   ├── ANALYZE  ← Level 1
+│   │   │   ├── DESIGN   ← Out of scope
+│   │   │   └── VERIFY   ← Out of scope
+│   │   ├── Gatekeeper Decision
+│   │   └── Scope Boundary
+│   │       ├── Method-development research
+│   │       ├── Not investment advice
+│   │       └── Operator capital only if later authorized
+│   │
+│   ├── TCG Decision Page
+│   │   ├── Problem Significance
+│   │   ├── Concept Potential
+│   │   ├── Evidence Confidence
+│   │   ├── Readiness
+│   │   ├── Risk
+│   │   ├── Handoff Readiness
+│   │   ├── WATCH / WARNING / STOP
+│   │   ├── Recommendation
+│   │   │   ├── PROCEED
+│   │   │   ├── PROCEED CONTROLLED
+│   │   │   ├── REFINE
+│   │   │   ├── HOLD
+│   │   │   ├── PIVOT
+│   │   │   └── STOP
+│   │   └── Next Action — Owner / Date
+│   │
+│   └── Gatekeeper Turnover
+│
+│
+├── 01 — DEFINE
+│   │
+│   ├── 1.1 Problem Statement
+│   │   └── Can structured analysis produce measurable
+│   │       predictive information beyond appropriate baselines?
+│   │
+│   ├── 1.2 Decision Definition
+│   │   └── Does evidence justify controlled further development?
+│   │
+│   ├── 1.3 Scope / Authority Boundary
+│   │
+│   ├── 1.4 CTQ Tree
+│   │   ├── Predictive validity
+│   │   ├── Calibration
+│   │   ├── Resolution
+│   │   ├── Reproducibility
+│   │   ├── Independence
+│   │   ├── Traceability
+│   │   ├── Falsifiability
+│   │   └── Practical utility
+│   │
+│   ├── 1.5 Evidence Classification
+│   │   ├── P — Primary
+│   │   ├── S — Secondary
+│   │   ├── A — Analytical
+│   │   ├── E — Estimate
+│   │   ├── R — Protocol-generated Result
+│   │   └── X — Excluded / Unverified
+│   │
+│   ├── 1.6 Forecast Admission Gate
+│   │   ├── Decision-relevant
+│   │   ├── Non-degenerate
+│   │   │   └── Base rate 5%–95%
+│   │   ├── Objectively resolvable
+│   │   ├── Resolution ≤90 days
+│   │   └── Open / unresolved at cutoff
+│   │
+│   ├── 1.7 Rejected Question Register
+│   │
+│   ├── 1.8 Questions Asked / Answered Register
+│   │
+│   └── 1.9 Kill-Criteria Framework
+│       ├── K1 — Resolvability failure
+│       ├── K2 — Insufficient independent observations
+│       ├── K3 — No predictive skill above baseline
+│       ├── K4 — Calibration failure
+│       ├── K5 — Reproducibility failure
+│       ├── K6 — Prediction doesn't transmit to market
+│       └── K7 — Information doesn't survive economic pricing
+│
+│
+├── 02 — MEASURE                         ★ CURRENT WORK
+│   │
+│   ├── 2.1 Measurement System Analysis
+│   │
+│   ├── 2.2 Forecast Registry v1.0
+│   │   │
+│   │   ├── IDENTITY
+│   │   │   ├── Forecast ID
+│   │   │   ├── Event-family ID
+│   │   │   └── Forecast class
+│   │   │       ├── ACTOR
+│   │   │       ├── EVENT
+│   │   │       ├── TRANSMISSION
+│   │   │       └── MARKET
+│   │   │
+│   │   ├── INFORMATION STATE
+│   │   │   ├── Information cutoff
+│   │   │   ├── Evidence packet
+│   │   │   └── Retrieval timestamps
+│   │   │
+│   │   ├── QUESTION DIFFICULTY
+│   │   │   ├── Base-rate distance from 50%
+│   │   │   ├── Forecast horizon
+│   │   │   └── Actor count / complexity
+│   │   │
+│   │   ├── METHOD PROVENANCE
+│   │   │   ├── Base-rate reasoning
+│   │   │   ├── Historical analogue / cloning
+│   │   │   ├── Game theory
+│   │   │   ├── Bayesian updating
+│   │   │   ├── Behavioral model
+│   │   │   ├── Transmission analysis
+│   │   │   └── Red team
+│   │   │
+│   │   ├── CLAIM
+│   │   │   ├── Exact question
+│   │   │   ├── CDP probability
+│   │   │   ├── Resolution criterion
+│   │   │   └── Resolution date
+│   │   │
+│   │   ├── BASELINE A — INFORMATIONAL
+│   │   │   ├── Preregistered reference class
+│   │   │   ├── Historical / realized probability
+│   │   │   └── Derivation
+│   │   │
+│   │   ├── BASELINE B — ECONOMIC
+│   │   │   ├── Blinded option-chain snapshot
+│   │   │   ├── Snapshot hash
+│   │   │   ├── Risk-neutral probability
+│   │   │   ├── Liquidity assessment
+│   │   │   └── Error bounds
+│   │   │
+│   │   ├── DIVERGENCE
+│   │   │   ├── CDP vs Baseline A
+│   │   │   └── CDP vs Baseline B
+│   │   │
+│   │   ├── DESIGNATION
+│   │   │   ├── Forecast-only
+│   │   │   └── Trade-eligible
+│   │   │       └── Mechanical/randomized rule
+│   │   │
+│   │   ├── FREEZE
+│   │   │   ├── UTF-8 canonical form
+│   │   │   ├── LF endings
+│   │   │   ├── No trailing whitespace
+│   │   │   ├── SHA-256
+│   │   │   ├── Independent timestamp
+│   │   │   │   ├── RFC 3161
+│   │   │   │   └── OpenTimestamps
+│   │   │   └── Verification
+│   │   │
+│   │   └── RESOLUTION — APPEND ONLY
+│   │       ├── Actual outcome
+│   │       ├── Resolution evidence
+│   │       ├── Brier score
+│   │       ├── Skill vs A
+│   │       ├── Skill vs B
+│   │       ├── Lesson
+│   │       └── Amendment/new forecast pointer
+│   │
+│   ├── 2.3 Baseline Controls
+│   │   ├── Baseline A reference-class control
+│   │   └── Baseline B analyst blinding
+│   │
+│   ├── 2.4 Market-Implied Probability Method
+│   │   ├── Option-chain extraction
+│   │   ├── Risk-neutral ≠ real-world probability
+│   │   ├── Variance/skew risk premium
+│   │   ├── Liquidity
+│   │   └── Measurement uncertainty
+│   │
+│   ├── 2.5 Scoring System
+│   │   ├── Per-forecast Brier score
+│   │   ├── Aggregate Brier Skill Score
+│   │   ├── Calibration
+│   │   └── Resolution
+│   │
+│   ├── 2.6 Reproducibility
+│   │   ├── Independent second analyst required
+│   │   └── Execution potentially Level 2
+│   │
+│   └── 2.7 N-GATE
+│       ├── Define primary endpoint
+│       ├── Define baseline
+│       ├── Minimum useful effect
+│       ├── Alpha
+│       ├── Power
+│       ├── Unit of analysis
+│       ├── Independence rules
+│       ├── Calculate required N
+│       ├── Estimate obtainable N
+│       └── TEST:
+│           Can the project realistically obtain enough
+│           independent evidence to validate the method?
+│
+│
+├── 03 — ANALYZE
+│   │
+│   ├── 3.1 Event Definition
+│   │
+│   ├── 3.2 Actor Identification
+│   │   ├── Objectives
+│   │   ├── Constraints
+│   │   ├── Information
+│   │   ├── Leverage
+│   │   ├── Available moves
+│   │   └── Payoffs
+│   │
+│   ├── 3.3 Predictive Methods
+│   │   ├── Historical Analogues / Cloning
+│   │   ├── Bayesian / Base-Rate Reasoning
+│   │   ├── Game Theory
+│   │   │   ├── Tit-for-Tat
+│   │   │   ├── Signaling
+│   │   │   ├── Brinkmanship / Chicken
+│   │   │   ├── Credible commitment
+│   │   │   ├── Minimax
+│   │   │   ├── Nash
+│   │   │   └── Level-k
+│   │   ├── Behavioral Modeling
+│   │   ├── Second-/Third-Order Effects
+│   │   └── Red Team
+│   │
+│   ├── 3.4 Level-2 Candidate
+│   │   └── Interactive Multi-Party Simulation
+│   │       ├── Multiple independent participants
+│   │       ├── Assigned competing actors
+│   │       ├── Interactive countermoves
+│   │       └── Cost/value question
+│   │
+│   ├── 3.5 Actor Predictions
+│   │
+│   ├── 3.6 Transmission Model
+│   │   └── Event
+│   │       ↓
+│   │       Actor response
+│   │       ↓
+│   │       Energy / finance / trade
+│   │       ↓
+│   │       Inflation / rates / liquidity
+│   │       ↓
+│   │       Asset valuation
+│   │       ↓
+│   │       Market outcome
+│   │
+│   ├── 3.7 Red-Team Case
+│   │   └── Strongest explanation for why forecast is wrong
+│   │
+│   └── 3.8 Probability Production
+│       │
+│       └──────────────► MEASURE / FREEZE
+│                           │
+│                           ▼
+│                       RESOLUTION
+│                           │
+│                     New information
+│                           │
+│                           └────► ANALYZE
+│                                  New forecast ID
+│
+│
+├── 04 — EXPERIMENTAL PROGRAM
+│   │
+│   ├── 4.1 All Qualifying Forecasts
+│   │   ├── High divergence
+│   │   ├── Low divergence
+│   │   └── No divergence
+│   │
+│   ├── 4.2 Forecast Status
+│   │   ├── WATCH
+│   │   ├── DEVELOPING
+│   │   ├── TRIGGERED
+│   │   └── INVALIDATED
+│   │
+│   ├── 4.3 Capital Assignment
+│   │   ├── $0 until N-gate clears
+│   │   └── Future:
+│   │       ├── Mechanical eligibility
+│   │       ├── Random assignment
+│   │       └── RNG seed recorded
+│   │
+│   └── 4.4 Trade Experiment — SECONDARY
+│       ├── Maximum premium ≤ $25 / trade
+│       ├── Instrument
+│       ├── Strike
+│       ├── Expiration
+│       ├── IV
+│       ├── Liquidity
+│       ├── Entry / exit
+│       └── P/L
+│
+│
+├── 05 — RESULTS
+│   │
+│   ├── 5A — PER-FORECAST RESOLUTION
+│   │   ├── Outcome
+│   │   ├── Actor prediction
+│   │   ├── Event prediction
+│   │   ├── Transmission prediction
+│   │   ├── Market prediction
+│   │   ├── Brier score
+│   │   └── Lesson
+│   │
+│   └── 5B — AGGREGATE FINDINGS
+│       │   [ONLY AFTER SUFFICIENT N]
+│       │
+│       ├── Calibration
+│       ├── Resolution
+│       ├── Skill vs historical reference
+│       ├── Skill vs market-implied reference
+│       ├── Reproducibility
+│       ├── Incremental information
+│       ├── Economic usefulness
+│       └── Exploratory method comparisons
+│           └── Explicitly hypothesis-generating
+│
+│
+├── 06 — DECISION / KILL SYSTEM
+│   │
+│   ├── K1 — Can forecasts be objectively resolved?
+│   ├── K2 — Can sufficient independent N be obtained?
+│   ├── K3 — Is there measurable predictive skill?
+│   ├── K4 — Is probability calibration acceptable?
+│   ├── K5 — Is analysis reproducible?
+│   ├── K6 — Does actor/event insight transmit to markets?
+│   ├── K7 — Does any information survive:
+│   │         ├── Options pricing
+│   │         ├── Variance risk premium
+│   │         ├── Skew
+│   │         ├── Bid/ask
+│   │         └── Timing/execution?
+│   │
+│   └── GATEKEEPER DECISION
+│       ├── PROCEED
+│       ├── PROCEED CONTROLLED
+│       ├── REFINE
+│       ├── HOLD
+│       ├── PIVOT
+│       └── STOP
+│
+│
+├── 07 — CONTROLLED REGISTERS
+│   │
+│   ├── Questions Asked / Answered
+│   ├── Unresolved Questions
+│   ├── Rejected Questions
+│   ├── Forecast Registry
+│   ├── Event-Family Registry
+│   ├── Evidence Register
+│   ├── Assumption / Estimate Register
+│   ├── Kill-Criteria Register
+│   ├── Test / Experiment Log
+│   └── Amendment / Version Log
+│
+│
+├── 08 — VISUAL / PRODUCTION REGISTER
+│   │
+│   ├── FIG.01 Prediction Engine
+│   ├── FIG.02 Measurement Separation
+│   ├── FIG.03 Actor Game Board
+│   ├── FIG.04 Recursive Decision Tree
+│   ├── FIG.05 Market Transmission Chain
+│   ├── FIG.06 Forecast Resolution Card
+│   ├── FIG.07 Effective Sample Problem
+│   ├── FIG.08 Validation Funnel
+│   ├── FIG.09 Method Authority Map
+│   ├── FIG.10 CDP vs Market Probability
+│   ├── FIG.11 Evidence Chain
+│   ├── FIG.12 Forecast Stratification
+│   └── FIG.13 Information Edge vs Economic Edge
+│
+│
+└── 09 — TCG DELIVERY PACKAGE
+    │
+    ├── 01_Client_Concept_Book.pdf
+    │   ├── Concept
+    │   ├── Scope boundary — PAGE 2
+    │   ├── Key questions
+    │   ├── Major illustrations
+    │   └── Level-1 finding
+    │
+    ├── 02_Controlled_CDP.pdf
+    │   └── Full controlled analysis
+    │
+    ├── 03_Project_Assets/
+    │   ├── Forecast packets
+    │   ├── Timestamp proofs
+    │   ├── Chain snapshots
+    │   ├── Data
+    │   ├── Calculations
+    │   ├── Figures
+    │   └── Asset_Index
+    │
+    └── 04_Handoff/
+        ├── Decision Page
+        ├── Open questions
+        ├── Risks / killers
+        ├── Next actions
+        └── Gatekeeper Turnover
